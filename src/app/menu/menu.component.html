@@ -1,0 +1,24 @@
+<header>
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+        <div ><a href="https://www.teksystems.com/en" class="navbar-brand" ><h1>TEK-ShoppingCart</h1></a></div>
+
+        <ul class="navbar-nav">
+            <li><a  class="nav-link" routerLink="/shop"  >Shop</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Admin
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a routerLink="/admin/users" class="dropdown-item">Users</a>
+                    <a routerLink="/admin/books" class="dropdown-item">Items</a>
+                </div>
+                
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+        </ul>
+    </nav>
+</header>
